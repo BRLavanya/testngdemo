@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63" started-at="2020-07-01T06:42:44Z" finished-at="2020-07-01T06:42:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63" started-at="2020-07-01T06:42:44Z" finished-at="2020-07-01T06:42:44Z">
+      <class name="testNGLearning.dataProviders">
+        <test-method status="PASS" signature="mobileHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGLearning.dataProviders@64d2d351]" name="mobileHomeLoan" duration-ms="17" started-at="2020-07-01T12:12:44Z" data-provider="getData" finished-at="2020-07-01T12:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileHomeLoan -->
+        <test-method status="PASS" signature="mobileHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGLearning.dataProviders@64d2d351]" name="mobileHomeLoan" duration-ms="3" started-at="2020-07-01T12:12:44Z" data-provider="getData" finished-at="2020-07-01T12:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileHomeLoan -->
+        <test-method status="PASS" signature="mobileHomeLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGLearning.dataProviders@64d2d351]" name="mobileHomeLoan" duration-ms="4" started-at="2020-07-01T12:12:44Z" data-provider="getData" finished-at="2020-07-01T12:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdUserPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileHomeLoan -->
+      </class> <!-- testNGLearning.dataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

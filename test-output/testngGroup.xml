@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoanDepartment">
+	<test thread-count="5" name="PersonalLoan">
+		<groups>
+			<run>
+				<include name="regression"/>
+				<exclude name="smoke"/>
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="Basics.FirstProgramTestNG" />
+			<class name="Basics.DemoClass" />
+			<class name="Basics.CarLoan" />
+			<class name="Basics.HomeLoan" />
+		</classes>
+	</test>
+</suite> 

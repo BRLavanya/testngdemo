@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoanDepartment]" parallel="tests">
+  <test name="PersonalLoan(failed)" parallel="tests" preserve-order="true">
+    <classes>
+      <class name="Basics.DemoClass">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="personalLoan"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Basics.DemoClass -->
+      <class name="Basics.FirstProgramTestNG">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Basics.FirstProgramTestNG -->
+      <class name="Basics.CarLoan">
+        <methods>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Basics.CarLoan -->
+      <class name="Basics.HomeLoan">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- Basics.HomeLoan -->
+    </classes>
+  </test> <!-- PersonalLoan(failed) -->
+</suite> <!-- Failed suite [LoanDepartment] -->
